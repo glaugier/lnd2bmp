@@ -14,7 +14,7 @@ Compilation should occur, generating `lnd2bmp` executable in the local `bin/` di
 Alternatively, this can be compiled by hand, typing this minimal command line:
 
 ```shell
-gcc lnd2bmp -o bin/lnd2bmp
+gcc lnd2bmp.c -o bin/lnd2bmp
 ```
 
 ### Creating bitmap from csv landscapes
@@ -34,7 +34,7 @@ Troubleshooting
 ---------------
 
  + Might work only on Linux, due to mkdir and file permission.
- + Sometimes, the resulting bitmap file has a shorter extension name, such as ".bm". Might come
+ + Sometimes, the resulting bitmap file has a shorter extension name, such as ".bm". Might come from memory allocation.
 
 TODO
 ----
